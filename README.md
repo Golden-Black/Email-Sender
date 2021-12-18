@@ -14,4 +14,8 @@ Open the terminal and go the folder that contains the project code. <br/>
 Follow steps 3 and 4 in the setup guide at SendGrid to create the key file. <br/>
 
 3. Configure the port number<br/>
-Go to the app.js file and scroll down to line 67. Change the port number to a port that is currently available for use. Then, open up your browser, and put localhost: YOUR_CUSTOMIZED_PORT_NUM.
+ 3.1 Go to the app.js file and scroll down to line 67. Change the port number to a port that is currently available for use. <br/>
+ 3.2 Run ```npm install``` to install all dependencies required to the local node_module folder. <br/>
+ 3.3 After that, start the project by using ```nodemon app.js``` and you should be able to see "Server is listening at ...", indicating the server is up.<br/>
+ 3.4 Open up your browser, and put localhost: YOUR_CUSTOMIZED_PORT_NUM to run the project.<br/>
+ 3.5 To quit, hold ```Ctrl``` and ```C```

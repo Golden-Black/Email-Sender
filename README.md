@@ -1,6 +1,6 @@
 # Email-Server
 www.cyberpost.xyz <br/>
-This webmail allows you send emails to a specificed contact with subject and message through the website.
+This webmail allows you send emails to a specificed contact with subject and message through the website which is host by Heroku.
 
 # Running the Script Locally
 The project uses transactional email API from SendGrid by Twilio. SendGrid does not allow the API key file (sendgrid.env) to be publicly listed on the code repository on Github. Therefore, to run the service locally, you will need to generate your own API keys. See the following steps: <br/>
